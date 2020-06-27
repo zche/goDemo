@@ -17,7 +17,7 @@ func testBaseStruct() {
 	book1.Id = 1001
 	book1.Title = "go"
 	book1.Author = "che"
-	book1.Subject = "test"
+	book1.Subject = "关于go的基本语法"
 	fmt.Println(book1)
 	book2 := book.Book{
 		Id:      1002,
