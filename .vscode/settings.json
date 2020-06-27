@@ -9,7 +9,7 @@
     "go.docsTool": "gogetdoc",
     // "editor.fontSize": 12,
     "code-runner.executorMap": {
-        "go": "set GOPATH=$workspaceRoot && go run $fullFileName"
+        "go": "export GOPATH=$workspaceRoot && go run $fullFileName"
     },
     "maven.view": "hierarchical"
 }
