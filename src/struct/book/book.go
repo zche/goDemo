@@ -42,5 +42,6 @@ func InitTechBook() {
 	tb.Book = *bk
 	fmt.Println("techBook cat=", tb.cat)
 	fmt.Println("techBook int=", tb.int)
-	fmt.Println("techBook book=", tb.Book)
+	fmt.Println("techBook book=", tb.Book.String())
+	fmt.Println("techBook=", tb.String())
 }
