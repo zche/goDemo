@@ -1,0 +1,4 @@
+mode: set
+goTesting-cover/calc/calc.go:3.23,5.2 1 1
+goTesting-cover/calc/calc.go:7.22,9.2 1 0
+goTesting-cover/calc/calc.go:11.24,13.2 1 1
